@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/lib/power.lib)(options "")(descr ""))
+  (lib (name k2)(type Legacy)(uri ${KIPRJMOD}/lib/k2.lib)(options "")(descr ""))
+)

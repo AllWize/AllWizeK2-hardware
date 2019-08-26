@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/gschelotto/Sync/PureDSP/collaborators/ALLWIZE/K2/share/hardware/RevPB/k2.sch</source>
+    <date>Wed 15 Aug 2018 07:53:47 PM CEST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Allwize-K2</title>
+        <company>AllWize</company>
+        <rev>RevB</rev>
+        <date>2018-07-27</date>
+        <source>k2.sch</source>
+        <comment number="1" value="Author: Gaston Schelotto"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="FD1">
+      <value>FIDUCIAL</value>
+      <footprint>K2:FIDUCIAL-08</footprint>
+      <fields>
+        <field name="Function">Fiducial</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C772D3</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <fields>
+        <field name="Function">Logo Mark</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C7751D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-up resistor</field>
+        <field name="PN">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4A56D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series Resistor</field>
+        <field name="PN">RCS04021K00FKED</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D75C44</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED-DIODE</value>
+      <footprint>K2:LED_0603</footprint>
+      <fields>
+        <field name="Function">Green LED</field>
+        <field name="PN">KPHD-1608LVZGCK</field>
+      </fields>
+      <libsource lib="k2" part="LED-DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D7F9EF</tstamp>
+    </comp>
+    <comp ref="FD2">
+      <value>FIDUCIAL</value>
+      <footprint>K2:FIDUCIAL-08</footprint>
+      <fields>
+        <field name="Function">Fiducial</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D8D101</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>K2:PinHeader_2x05_P1.27mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Function">2x5 Connector</field>
+        <field name="PN"> 20021121-00010C4LF</field>
+      </fields>
+      <libsource lib="k2" part="Conn_02x05_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4A92F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series Resistor</field>
+        <field name="PN">RCS04021K00FKED</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4DFE2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED-DIODE</value>
+      <footprint>K2:LED_0603</footprint>
+      <fields>
+        <field name="Function">Green LED</field>
+        <field name="PN">KPHD-1608LVZGCK</field>
+      </fields>
+      <libsource lib="k2" part="LED-DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4E4DB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Ferrite_Bead</value>
+      <footprint>K2:R_0603</footprint>
+      <fields>
+        <field name="Function">Ferrite Bead</field>
+        <field name="PN">BLM18SG331TN1</field>
+      </fields>
+      <libsource lib="k2" part="Ferrite_Bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB51A88</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RC1701xx-MBUS</value>
+      <footprint>K2:RC1701xx-MBUS</footprint>
+      <fields>
+        <field name="Function">M-Bus High power RF Transceiver Module</field>
+        <field name="PN">RC1701HP-MBUS4</field>
+      </fields>
+      <libsource lib="k2" part="RC1701xx-MBUS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4D54C</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>NPTH-HOLE</value>
+      <footprint>K2:HOLE_2.5MM</footprint>
+      <fields>
+        <field name="Function">NPTH Hole</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="NPTH-HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC80AFC</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>NPTH-HOLE</value>
+      <footprint>K2:HOLE_2.5MM</footprint>
+      <fields>
+        <field name="Function">NPTH Hole</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="NPTH-HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC80CF4</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>NPTH-HOLE</value>
+      <footprint>K2:HOLE_2.5MM</footprint>
+      <fields>
+        <field name="Function">NPTH Hole</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="NPTH-HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC81102</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>NPTH-HOLE</value>
+      <footprint>K2:HOLE_2.5MM</footprint>
+      <fields>
+        <field name="Function">NPTH Hole</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="NPTH-HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC81108</tstamp>
+    </comp>
+    <comp ref="G2">
+      <value>LABEL</value>
+      <fields>
+        <field name="Function">Label Zone</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACB2BBD</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial_uFL</value>
+      <footprint>K2:uFL-CONN</footprint>
+      <fields>
+        <field name="Function">uFL Antenna Connector</field>
+        <field name="PN">U.FL-R-SMT(10)</field>
+      </fields>
+      <libsource lib="k2" part="Conn_Coaxial_uFL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34C7F4</tstamp>
+    </comp>
+    <comp ref="G3">
+      <value>OSH</value>
+      <footprint>K2:osh</footprint>
+      <fields>
+        <field name="Function">Logo Mark</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B35FF2A</tstamp>
+    </comp>
+    <comp ref="G4">
+      <value>PB_FREE</value>
+      <footprint>K2:Pb-free</footprint>
+      <fields>
+        <field name="Function">Logo Mark</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B360313</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SAMD21G18</value>
+      <footprint>K2:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm</footprint>
+      <fields>
+        <field name="Function">Low-Power 32-bit Cortex-M0+ MCU</field>
+        <field name="PN">ATSAMD21G18A-MU</field>
+      </fields>
+      <libsource lib="k2" part="SAMD21G18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F0642</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x14</value>
+      <footprint>K2:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Function">1x14 Connector</field>
+        <field name="PN">?</field>
+      </fields>
+      <libsource lib="k2" part="Conn_01x14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F2160</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x14</value>
+      <footprint>K2:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Function">1x14 Connector</field>
+        <field name="PN">?</field>
+      </fields>
+      <libsource lib="k2" part="Conn_01x14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F2991</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>K2:USB_Micro-B_ZX62-AB-5PA_31</footprint>
+      <fields>
+        <field name="Function">Micro B-USB connector</field>
+        <field name="PN">ZX62-AB-5PA(31)</field>
+      </fields>
+      <libsource lib="k2" part="USB_B_Micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F6769</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Filter Capacitor</field>
+        <field name="PN">GRM155R71H103KA88J</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F735A</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>Ferrite_Bead</value>
+      <footprint>K2:R_0603</footprint>
+      <fields>
+        <field name="Function">Ferrite Bead</field>
+        <field name="PN">BLM18SG331TN1</field>
+      </fields>
+      <libsource lib="k2" part="Ferrite_Bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F79B0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Filter Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F7DB7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>PTC</value>
+      <footprint>K2:R_0805</footprint>
+      <fields>
+        <field name="Function">PTC Fuse</field>
+        <field name="PN">MF-PSMF075X-2</field>
+      </fields>
+      <libsource lib="k2" part="PTC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FC265</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>K2:R_0805</footprint>
+      <fields>
+        <field name="Function">Shielding resistor</field>
+        <field name="PN">RCV08051M00FKEA</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD046</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4n7</value>
+      <footprint>K2:C_0805</footprint>
+      <fields>
+        <field name="Function">Shielding Capacitor</field>
+        <field name="PN">C0805V472KDRACTU</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD66F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>PMEG2005EL</value>
+      <footprint>K2:SOD-882</footprint>
+      <fields>
+        <field name="Function">Schottky Diode</field>
+        <field name="PN">PMEG2005EL,315</field>
+      </fields>
+      <libsource lib="k2" part="PMEG2005EL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FF989</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PRTR5V0U2X</value>
+      <footprint>K2:SOT-143</footprint>
+      <fields>
+        <field name="Function">ESD protection diode</field>
+        <field name="PN">PRTR5V0U2X,215</field>
+      </fields>
+      <libsource lib="k2" part="PRTR5V0U2X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FFADD</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM188R61C106KAALD</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604BBF</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>Ferrite_Bead</value>
+      <footprint>K2:R_0603</footprint>
+      <fields>
+        <field name="Function">Ferrite Bead</field>
+        <field name="PN">BLM18SG331TN1</field>
+      </fields>
+      <libsource lib="k2" part="Ferrite_Bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B606FF7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM188R61C106KAALD</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6087DC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM155R61E105KA12D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6094FD</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604501</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM188R61C106KAALD</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60E605</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60E60D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM188R61C106KAALD</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60FD0F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60FD17</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>PUSHBUTTON</value>
+      <footprint>K2:PTS8020</footprint>
+      <fields>
+        <field name="Function">Push Button</field>
+        <field name="PN">PTS820 J25K SMTR LFS</field>
+      </fields>
+      <libsource lib="k2" part="PUSHBUTTON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6119E3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4u7</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM155R60J475ME47D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6122F1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6122F9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>20p</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Xtal Capacitor</field>
+        <field name="PN">CBR04C200J5GAC</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6165EB</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>20p</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Xtal Capacitor</field>
+        <field name="PN">CBR04C200J5GAC</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6148C8</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32768Hz</value>
+      <footprint>K2:ABS07-32768Hz</footprint>
+      <fields>
+        <field name="Function">32768Hz Crystal Oscillator</field>
+        <field name="PN">ABS07-32.768KHZ-T</field>
+      </fields>
+      <libsource lib="k2" part="32768Hz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B614232</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Filter Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61A139</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6087E4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>680k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">RC0402FR-07680KL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61CE57</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>330k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">CRCW0402330KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61D56F</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>K2:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Function">Open Jumper</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="SolderJumper_2_Open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60326B</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>K2:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Function">Open Jumper</field>
+        <field name="PN">NA</field>
+      </fields>
+      <libsource lib="k2" part="SolderJumper_2_Open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60D65E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>330R</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series resistor</field>
+        <field name="PN">RC0402FR-07330RL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6140B0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-up resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6150E2</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Filter Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B616FB1</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>330R</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series resistor</field>
+        <field name="PN">RC0402FR-07330RL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61872E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>K2:PinHeader_2x03_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Function">ICSP 2x3 Connector</field>
+        <field name="PN">M20-8760342</field>
+      </fields>
+      <libsource lib="k2" part="Conn_02x03_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6193A6</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>330R</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series resistor</field>
+        <field name="PN">RC0402FR-07330RL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61B864</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-up resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6205DB</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4k7</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-up resistor</field>
+        <field name="PN">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B623CDD</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4k7</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-up resistor</field>
+        <field name="PN">RC0402FR-074K7L</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B62440D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">CRCW0402100KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60F05D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PMEG2005EL</value>
+      <footprint>K2:SOD-882</footprint>
+      <fields>
+        <field name="Function">Schottky Diode</field>
+        <field name="PN">PMEG2005EL,315</field>
+      </fields>
+      <libsource lib="k2" part="PMEG2005EL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6108F3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>330R</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">RC0402FR-07330RL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B612EB1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">CRCW0402100KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6179E9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">CRCW0402100KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B618C59</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Filter Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61A126</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Gate resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61B92E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series resistor</field>
+        <field name="PN">RCS04021K00FKED</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6210F2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED-DIODE</value>
+      <footprint>K2:LED_0603</footprint>
+      <fields>
+        <field name="Function">Green LED</field>
+        <field name="PN">KPHD-1608LVZGCK</field>
+      </fields>
+      <libsource lib="k2" part="LED-DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B621B2F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Gate resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B623B81</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMP2065UFDB</value>
+      <footprint>K2:U-DFN2020-6</footprint>
+      <fields>
+        <field name="Function">Dual P-Channel Enhancement Mode MOSFET</field>
+        <field name="PN">DMP2065UFDB-7</field>
+      </fields>
+      <libsource lib="k2" part="DMP2065UFDB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60AAAB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM155R61E105KA12D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B62B350</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>DMP2065UFDB</value>
+      <footprint>K2:U-DFN2020-6</footprint>
+      <fields>
+        <field name="Function">Dual P-Channel Enhancement Mode MOSFET</field>
+        <field name="PN">DMP2065UFDB-7</field>
+      </fields>
+      <libsource lib="k2" part="DMP2065UFDB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6300BE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLV757P</value>
+      <footprint>K2:WSON-6</footprint>
+      <fields>
+        <field name="Function">LDO Voltage Regulator</field>
+        <field name="PN">TLV75733PDRVR</field>
+      </fields>
+      <libsource lib="k2" part="TLV757P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63292B</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM155R61E105KA12D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6351E1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">RC0402FR-0747KL</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B636880</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Voltage divider resistor</field>
+        <field name="PN">CRCW0402100KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B636888</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Gate resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6368A4</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>DMP2065UFDB</value>
+      <footprint>K2:U-DFN2020-6</footprint>
+      <fields>
+        <field name="Function">Dual P-Channel Enhancement Mode MOSFET</field>
+        <field name="PN">DMP2065UFDB-7</field>
+      </fields>
+      <libsource lib="k2" part="DMP2065UFDB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6368C9</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002T</value>
+      <footprint>K2:SOT-523-3</footprint>
+      <fields>
+        <field name="Function">N-Channel MOSFET</field>
+        <field name="PN">2N7002T-7-F</field>
+      </fields>
+      <libsource lib="k2" part="NMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6368D1</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10u</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GRM188R61C106KAALD</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63A4A4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002T</value>
+      <footprint>K2:SOT-523-3</footprint>
+      <fields>
+        <field name="Function">N-Channel MOSFET</field>
+        <field name="PN">2N7002T-7-F</field>
+      </fields>
+      <libsource lib="k2" part="NMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63C3E9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002T</value>
+      <footprint>K2:SOT-523-3</footprint>
+      <fields>
+        <field name="Function">N-Channel MOSFET</field>
+        <field name="PN">2N7002T-7-F</field>
+      </fields>
+      <libsource lib="k2" part="NMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63C985</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>DMP2065UFDB</value>
+      <footprint>K2:U-DFN2020-6</footprint>
+      <fields>
+        <field name="Function">Dual P-Channel Enhancement Mode MOSFET</field>
+        <field name="PN">DMP2065UFDB-7</field>
+      </fields>
+      <libsource lib="k2" part="DMP2065UFDB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63D9A2</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Gate resistor</field>
+        <field name="PN">CRCW040210K0FKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63E06F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>K2:OSTVN02</footprint>
+      <fields>
+        <field name="Function">1x2 Terminal screw connector</field>
+        <field name="PN">OSTVN02A150</field>
+      </fields>
+      <libsource lib="k2" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B642A58</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2N7002T</value>
+      <footprint>K2:SOT-523-3</footprint>
+      <fields>
+        <field name="Function">N-Channel MOSFET</field>
+        <field name="PN">2N7002T-7-F</field>
+      </fields>
+      <libsource lib="k2" part="NMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B663E27</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Pull-down resistor</field>
+        <field name="PN">CRCW0402100KFKEDC</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6652D0</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>K2:R_0402</footprint>
+      <fields>
+        <field name="Function">Series Resistor</field>
+        <field name="PN">RCS04021K00FKED</field>
+      </fields>
+      <libsource lib="k2" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B66993C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED-DIODE</value>
+      <footprint>K2:LED_0603</footprint>
+      <fields>
+        <field name="Function">Yellow LED</field>
+        <field name="PN"> KPHD-1608LVSYCK</field>
+      </fields>
+      <libsource lib="k2" part="LED-DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B66A4CE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>K2:C_0402</footprint>
+      <fields>
+        <field name="Function">Coupling Capacitor</field>
+        <field name="PN">GCM155R71H104KE02D</field>
+      </fields>
+      <libsource lib="k2" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B670DF9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ECC508A</value>
+      <footprint>K2:UDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm</footprint>
+      <fields>
+        <field name="Function">Crypto Authentication Device</field>
+        <field name="PN">ATECC508A-MAHDA-T</field>
+      </fields>
+      <libsource lib="k2" part="ECC508A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B616EFB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="k2" part="32768Hz">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">32768Hz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="Conn_01x14">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="Conn_02x03_Odd_Even">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="Conn_02x05_Odd_Even">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="Conn_Coaxial_uFL">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_uFL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Ext" type="passive"/>
+        <pin num="2" name="In" type="passive"/>
+        <pin num="3" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="DMP2065UFDB">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP2065UFDB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="G1" type="passive"/>
+        <pin num="3" name="D2" type="passive"/>
+        <pin num="4" name="S2" type="passive"/>
+        <pin num="5" name="G2" type="passive"/>
+        <pin num="6" name="D1" type="passive"/>
+        <pin num="7" name="D2" type="passive"/>
+        <pin num="8" name="D1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="ECC508A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECC508A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="k2" part="Ferrite_Bead">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="LED-DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="LOGO">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="k2" part="NMOS">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="NPTH-HOLE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NPTH-HOLE</field>
+      </fields>
+    </libpart>
+    <libpart lib="k2" part="PMEG2005EL">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG2005EL</field>
+        <field name="PN">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="PRTR5V0U2X">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+        <field name="PN">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A3A4" type="passive"/>
+        <pin num="2" name="A1C3" type="passive"/>
+        <pin num="3" name="A2C4" type="passive"/>
+        <pin num="4" name="C1C2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="PTC">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">PTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="PUSHBUTTON">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PUSHBUTTON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="RC1701xx-MBUS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RC1701xx-MBUS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CTS" type="passive"/>
+        <pin num="3" name="RTS" type="passive"/>
+        <pin num="4" name="CONFIG" type="passive"/>
+        <pin num="5" name="TXD" type="passive"/>
+        <pin num="6" name="RXD" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="RF" type="passive"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="RESET_N" type="passive"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+        <pin num="17" name="~" type="passive"/>
+        <pin num="18" name="~" type="passive"/>
+        <pin num="19" name="~" type="passive"/>
+        <pin num="20" name="~" type="passive"/>
+        <pin num="21" name="~" type="passive"/>
+        <pin num="22" name="~" type="passive"/>
+        <pin num="23" name="~" type="passive"/>
+        <pin num="24" name="~" type="passive"/>
+        <pin num="25" name="~" type="passive"/>
+        <pin num="26" name="~" type="passive"/>
+        <pin num="27" name="~" type="passive"/>
+        <pin num="28" name="~" type="passive"/>
+        <pin num="29" name="~" type="passive"/>
+        <pin num="30" name="~" type="passive"/>
+        <pin num="31" name="~" type="passive"/>
+        <pin num="32" name="~" type="passive"/>
+        <pin num="33" name="~" type="passive"/>
+        <pin num="34" name="~" type="passive"/>
+        <pin num="35" name="~" type="passive"/>
+        <pin num="36" name="~" type="passive"/>
+        <pin num="37" name="~" type="passive"/>
+        <pin num="38" name="~" type="passive"/>
+        <pin num="39" name="~" type="passive"/>
+        <pin num="40" name="~" type="passive"/>
+        <pin num="41" name="VCC_PA" type="power_in"/>
+        <pin num="42" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="SAMD21G18">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAMD21G18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="BiDi"/>
+        <pin num="2" name="PA01" type="BiDi"/>
+        <pin num="3" name="PA02" type="BiDi"/>
+        <pin num="4" name="PA03" type="BiDi"/>
+        <pin num="5" name="GNDANA" type="power_in"/>
+        <pin num="6" name="VDDANA" type="power_in"/>
+        <pin num="7" name="PB08" type="BiDi"/>
+        <pin num="8" name="PB09" type="BiDi"/>
+        <pin num="9" name="PA04" type="BiDi"/>
+        <pin num="10" name="PA05" type="BiDi"/>
+        <pin num="11" name="PA06" type="BiDi"/>
+        <pin num="12" name="PA07" type="BiDi"/>
+        <pin num="13" name="PA08" type="BiDi"/>
+        <pin num="14" name="PA09" type="BiDi"/>
+        <pin num="15" name="PA10" type="BiDi"/>
+        <pin num="16" name="PA11" type="BiDi"/>
+        <pin num="17" name="VDDIO" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PB10" type="BiDi"/>
+        <pin num="20" name="PB11" type="BiDi"/>
+        <pin num="21" name="PA12" type="BiDi"/>
+        <pin num="22" name="PA13" type="BiDi"/>
+        <pin num="23" name="PA14" type="BiDi"/>
+        <pin num="24" name="PA15" type="BiDi"/>
+        <pin num="25" name="PA16" type="BiDi"/>
+        <pin num="26" name="PA17" type="BiDi"/>
+        <pin num="27" name="PA18" type="BiDi"/>
+        <pin num="28" name="PA19" type="BiDi"/>
+        <pin num="29" name="PA20" type="BiDi"/>
+        <pin num="30" name="PA21" type="BiDi"/>
+        <pin num="31" name="PA22" type="BiDi"/>
+        <pin num="32" name="PA23" type="BiDi"/>
+        <pin num="33" name="PA24" type="BiDi"/>
+        <pin num="34" name="PA25" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="VDDIO" type="power_in"/>
+        <pin num="37" name="PB22" type="BiDi"/>
+        <pin num="38" name="PB23" type="BiDi"/>
+        <pin num="39" name="PA27" type="BiDi"/>
+        <pin num="40" name="~RESET~" type="BiDi"/>
+        <pin num="41" name="PA28" type="BiDi"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="VDDCORE" type="power_in"/>
+        <pin num="44" name="VDDIN" type="power_in"/>
+        <pin num="45" name="PA30" type="BiDi"/>
+        <pin num="46" name="PA31" type="BiDi"/>
+        <pin num="47" name="PB02" type="BiDi"/>
+        <pin num="48" name="PB03" type="BiDi"/>
+        <pin num="49" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="SolderJumper_2_Open">
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="TLV757P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV757P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_in"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="k2" part="USB_B_Micro">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="k2">
+      <uri>/home/gschelotto/Sync/PureDSP/collaborators/ALLWIZE/K2/share/hardware/RevPB/lib/k2.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A3">
+      <node ref="J6" pin="5"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="2" name="/A4">
+      <node ref="J6" pin="6"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="3" name="/A5">
+      <node ref="U3" pin="11"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="4" name="/A6">
+      <node ref="U3" pin="12"/>
+      <node ref="J6" pin="8"/>
+    </net>
+    <net code="5" name="/0">
+      <node ref="J6" pin="9"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="6" name="/1">
+      <node ref="J6" pin="10"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="J7" pin="14"/>
+      <node ref="Q4" pin="6"/>
+      <node ref="Q4" pin="8"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="Q3" pin="8"/>
+      <node ref="Q3" pin="6"/>
+    </net>
+    <net code="8" name="VIN">
+      <node ref="Q4" pin="7"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q3" pin="7"/>
+      <node ref="J7" pin="13"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="/RC_TX">
+      <node ref="U3" pin="24"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad2)">
+      <node ref="U2" pin="9"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="12" name="/RC_RX">
+      <node ref="J3" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="13" name="/~RESET~">
+      <node ref="J7" pin="10"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="14" name="/TX">
+      <node ref="J7" pin="9"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="15" name="/RX">
+      <node ref="U3" pin="38"/>
+      <node ref="J7" pin="8"/>
+    </net>
+    <net code="16" name="/MISO">
+      <node ref="J7" pin="5"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="17" name="/SCK">
+      <node ref="U3" pin="26"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="18" name="/MOSI">
+      <node ref="J7" pin="3"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="19" name="/7">
+      <node ref="J7" pin="2"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="20" name="/6">
+      <node ref="R23" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U3" pin="29"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="21" name="/AREF">
+      <node ref="J6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="22" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C1-Pad1)">
+      <node ref="J1" pin="6"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="24" name="/USB_D+">
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="34"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="25" name="/USB_ID">
+      <node ref="J1" pin="4"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="27" name="/RC_DC">
+      <node ref="J3" pin="3"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="28" name="/~~3">
+      <node ref="U3" pin="16"/>
+      <node ref="J6" pin="12"/>
+    </net>
+    <net code="29" name="/~~4">
+      <node ref="J6" pin="13"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="30" name="/~~5">
+      <node ref="U3" pin="20"/>
+      <node ref="J6" pin="14"/>
+    </net>
+    <net code="31" name="/~RC_RESET~">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="39"/>
+      <node ref="J3" pin="7"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="32" name="/RC_CFG">
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="33" name="/RC_DD">
+      <node ref="U2" pin="19"/>
+      <node ref="J3" pin="4"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="34" name="/~~2">
+      <node ref="U3" pin="15"/>
+      <node ref="J6" pin="11"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U3" pin="42"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="35"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J5" pin="5"/>
+      <node ref="U3" pin="18"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="49"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J7" pin="11"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="36" name="Net-(Q8-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D4-Pad1)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q3" pin="5"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="Q7" pin="4"/>
+    </net>
+    <net code="40" name="Net-(C18-Pad1)">
+      <node ref="Q7" pin="5"/>
+      <node ref="Q6" pin="7"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="41" name="+3.3V">
+      <node ref="L1" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="Q6" pin="6"/>
+      <node ref="Q6" pin="8"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U3" pin="17"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="Q7" pin="8"/>
+      <node ref="Q7" pin="6"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J7" pin="12"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U3" pin="44"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="42" name="/VBAT">
+      <node ref="Q7" pin="7"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="43" name="/DAC0/A0">
+      <node ref="U3" pin="3"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="44" name="/A1">
+      <node ref="J6" pin="3"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="45" name="/RC_VCC">
+      <node ref="U2" pin="41"/>
+      <node ref="U2" pin="13"/>
+      <node ref="J3" pin="9"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D7-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="30"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="49" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D2-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="51" name="Net-(Q5-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C5-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="57" name="/SDA">
+      <node ref="R27" pin="1"/>
+      <node ref="J7" pin="6"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="58" name="/SCL">
+      <node ref="J7" pin="7"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="60" name="Net-(C9-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="61" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="62" name="Net-(JP2-Pad1)">
+      <node ref="U3" pin="22"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R18-Pad2)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C21-Pad1)">
+      <node ref="U3" pin="40"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="65" name="Net-(J5-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="66" name="/A2">
+      <node ref="U3" pin="48"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="67" name="/SWDIO">
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="68" name="/SWCLK">
+      <node ref="U3" pin="45"/>
+      <node ref="J5" pin="4"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="70" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="71" name="/USB_D-">
+      <node ref="D3" pin="3"/>
+      <node ref="U3" pin="33"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="76" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="77" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad34)">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="81" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="82" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad42)">
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="85" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="91" name="Net-(U2-Pad31)">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="93" name="Net-(U2-Pad35)">
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="94" name="Net-(U2-Pad37)">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="95" name="Net-(U2-Pad39)">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="98" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="99" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="100" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="101" name="Net-(Q5-Pad3)">
+      <node ref="Q6" pin="5"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R22" pin="1"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="102" name="Net-(Q6-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q6" pin="4"/>
+    </net>
+    <net code="103" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="4"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="104" name="Net-(Q2-Pad3)">
+      <node ref="Q4" pin="5"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="105" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="106" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="107" name="Net-(C12-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="108" name="/AN_3V3">
+      <node ref="U3" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="109" name="Net-(C14-Pad2)">
+      <node ref="U3" pin="43"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+  </nets>
+</export>

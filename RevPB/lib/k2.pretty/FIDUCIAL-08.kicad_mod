@@ -1,0 +1,11 @@
+(module FIDUCIAL-08 (layer F.Cu) (tedit 5CA3380A)
+  (attr smd)
+  (fp_text reference FD1 (at -2.52 0.15) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FIDUCIAL (at 0 -1.397) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" smd circle (at 0 0) (size 0.8 0.8) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.1))
+)

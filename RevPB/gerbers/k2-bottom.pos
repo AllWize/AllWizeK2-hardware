@@ -1,0 +1,11 @@
+### Module positions - created on Thu 04 Apr 2019 12:36:30 PM CEST ###
+### Printed by Pcbnew version kicad 5.1.0-060a0da~80~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                   PosX       PosY       Rot  Side
+G1        LOGO                 allwize-k2-logo                        15.7300     2.2600  270.0000  bottom
+G3        OSH                  osh                                    26.0600     2.5000  270.0000  bottom
+G4        PB_FREE              Pb-free                               -32.1900    -7.1600  270.0000  bottom
+J3        Conn_02x05_Odd_Even  PinHeader_2x05_P1.27mm_Vertical_SMD    -6.0900     2.4500   90.0000  bottom
+J5        Conn_02x03_Odd_Even  PinHeader_2x03_P2.54mm_Vertical_SMD     3.5200     2.4500    0.0000  bottom
+## End

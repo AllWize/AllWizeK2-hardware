@@ -1,0 +1,225 @@
+48924265097125
+K2
+ABS07-32768Hz
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+K2
+allwize-k2-logo
+
+
+0
+0
+0
+K2
+C_0402
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
+0
+2
+2
+K2
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+K2
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+K2
+FIDUCIAL-08
+
+
+0
+1
+0
+K2
+HOLE_2.5MM
+
+
+0
+0
+0
+K2
+LABEL_15x5mm
+
+
+0
+0
+0
+K2
+LED_0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+K2
+osh
+
+
+0
+0
+0
+K2
+OSTVN02
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+K2
+Pb-free
+
+
+0
+0
+0
+K2
+PinHeader_1x14_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+K2
+PinHeader_2x03_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+6
+6
+K2
+PinHeader_2x05_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+K2
+PTS8020
+SOT-143
+SOT-143
+0
+6
+2
+K2
+QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
+0
+74
+49
+K2
+RC1701xx-MBUS
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+42
+42
+K2
+R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+K2
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+K2
+R_0603_ANTENNA
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+K2
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+K2
+SOD-882
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+K2
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+K2
+SOT-143
+SOT-143
+SOT-143
+0
+4
+4
+K2
+SOT-523-3
+SOT23 package
+SOT-23
+0
+3
+3
+K2
+TEST_POINT_1MM
+
+
+0
+1
+1
+K2
+U-DFN2020-6
+6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+8
+8
+K2
+UDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm
+8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body [UDFN] (see Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf)
+DFN 0.5
+0
+13
+9
+K2
+uFL-CONN
+SOT23 package
+SOT-23
+0
+3
+3
+K2
+USB_Micro-B_ZX62-AB-5PA_31
+Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
+Micro B USB SMD
+0
+11
+6
+K2
+WSON-6
+6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+8
+7
